@@ -411,7 +411,7 @@ const handleSuggestionClick = (customer) => {
     const detailedItems = `\n${dash}\n${header}\n${dash}\n${productDetails}\n${dash}`;
   
     const invoiceText = `
-  \x1B\x21\x10       Chaman Dhaba \x1B\x21\x00
+  \x1B\x21\x30 Chaman Dhaba \x1B\x21\x00
 
   \x1B\x61\x01  Pehowa, Haryana, 136128\x1B\x61\x00
   \x1B\x61\x01  Phone: +91 98967-55380\x1B\x61\x00

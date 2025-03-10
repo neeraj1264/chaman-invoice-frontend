@@ -49,6 +49,8 @@
     align-items: center;
     align-content: center;
     font-weight: bold;
+    width: 80%;
+    text-align: left;
   }
 
   /* Password Popup */
