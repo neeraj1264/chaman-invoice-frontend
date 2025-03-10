@@ -93,7 +93,7 @@ const handleSuggestionClick = (customer) => {
   
   const handleSendToWhatsApp = () => {
 
-    const restaurantName = "Urban Pizzeria"; 
+    const restaurantName = "Chaman Dhaba"; 
 
     const currentTotalAmount =
       calculateTotalPrice(productsToSend) + deliveryChargeAmount;
@@ -411,7 +411,7 @@ const handleSuggestionClick = (customer) => {
     const detailedItems = `\n${dash}\n${header}\n${dash}\n${productDetails}\n${dash}`;
   
     const invoiceText = `
-  \x1B\x21\x30 Chaman Dhaba \x1B\x21\x00
+  \x1B\x21\x10    Chaman Vaishno Dhaba \x1B\x21\x00
 
   \x1B\x61\x01  Pehowa, Haryana, 136128\x1B\x61\x00
   \x1B\x61\x01  Phone: +91 98967-55380\x1B\x61\x00
@@ -543,15 +543,15 @@ const handleSuggestionClick = (customer) => {
         ref={invoiceRef}
         style={{ display: "none" }}
       >
-        <img src="/logo.png" alt="Logo" width={100} className="logo" />
+        {/* <img src="/logo.png" alt="Logo" width={100} className="logo" /> */}
         <h1 style={{ textAlign: "center", margin: 0, fontSize: "25px" }}>
-          Urban Pizzeria
+          Chaman Vaishno Dhaba
         </h1>
         <p style={{ textAlign: "center", margin: 0, fontSize: "15px" }}>
           Pehowa, Haryana, 136128
         </p>
         <p style={{ textAlign: "center", margin: 0, fontSize: "15px" }}>
-          Phone Number - +91 81689-01827
+          Phone Number - +91 98967-55380
         </p>
         <hr />
         <h2 style={{ textAlign: "center", margin: 0, fontSize: "20px" }}>
