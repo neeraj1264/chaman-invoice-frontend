@@ -413,11 +413,10 @@ const handleSuggestionClick = (customer) => {
     const invoiceText = `
   \x1B\x21\x10    Chaman Vaishno Dhaba \x1B\x21\x00
 
-  \x1B\x61\x01  Pehowa, Haryana, 136128\x1B\x61\x00
-  \x1B\x61\x01  Phone: +91 98967-55380\x1B\x61\x00
+  \x1B\x61\x01    Chaman Vaishno Dhaba\x1B\x61\x00
+  \x1B\x61\x01        Kurukshetra   \x1B\x61\x00
+  \x1B\x61\x01  Phone: +91 87084-37224\x1B\x61\x00
   
-  \x1B\x61\x01Shastri Colony, Near Sbi Bank\x0A   Ambala Road Pehowa.\x1B\x61\x00
-
   \x1B\x21\x10-----Invoice Details-----\x1B\x21\x00
   
   Bill No: #${Math.floor(1000 + Math.random() * 9000)}
